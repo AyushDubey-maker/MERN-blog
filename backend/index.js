@@ -3,18 +3,23 @@ const mongoose = require("mongoose");
 const dotenv=require("dotenv")
 const cookieParser=require('cookie-parser')
 const cors=require('cors')
+
+// Initialize express
 const app = express();
 const PORT = 5000;
+
 dotenv.config();
 
 app.use(express.json())
 app.use(cookieParser());
-// Credentials True enables us to Set Cookies in 3000 PORT as well.
+// Credentials True enables us to set Cookies in 3000 PORT as well.
 app.use(
 cors({
   origin:['http://localhost:3000'],
   credentials:true
 }));
+
+// Server Running
 app.listen(PORT, () => {
  console.log(`Server Running on ${PORT}`);
 });
