@@ -7,7 +7,7 @@ const router = require("express").Router();
 // Multer package helps in storing the images in the backend.
 const storage = multer.diskStorage({
   destination: (req, file, callback) => {
-    callback(null, "./client/public/uploads");
+    callback(null, "../frontend/client/public/uploads");
   },
   filename: (req, file, callback) => {
     callback(null, file.originalname);
