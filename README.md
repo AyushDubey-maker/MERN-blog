@@ -29,4 +29,18 @@ jsonwebtoken
 mongoose
 multer
 ```
-
+<details>
+<summary>
+View Code Output:
+</summary>
+Homepage:
+<img src="layout-images/homepage-1.png"/>
+Login:
+<img src="layout-images/login.png"/>
+Register:
+<img src="layout-images/register.png"/>
+<img src="layout-images/user-blog-page.png"/>
+Blog Form:
+<img src="layout-images/blog-form.png"/>
+<img src="layout-images/homepage-2.png"/>
+</details>
