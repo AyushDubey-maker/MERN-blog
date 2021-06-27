@@ -43,4 +43,16 @@ Register:
 Blog Form:
 <img src="layout-images/blog-form.png"/>
 <img src="layout-images/homepage-2.png"/>
+
+Blog Landing Page:
+<img src="layout-images/blog-landing-page.png"/>
 </details>
+
+>### Features 📣:
+- Auth provided by jsonwebtoken with password hashing.
+- Users can view all blogs on homepage.
+- Users can create and view their blogs.
+- Blog Landing Page consists of 'like' and 'comment' feature too.
+
+
+
